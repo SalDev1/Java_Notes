@@ -1,0 +1,83 @@
+How Java Works ?? 
+
+Suppose we want to create a software using calculator ??
+
+We must first having the source file 
+
+The Source File Code Must Be Converted into Byte Code 
+
+Using the Complier , we are able to convert the source 
+code into byte code 
+
+We need a platform to run the byte code and as Java 
+is platform independent , we required a platform to 
+run the byte code. 
+
+The platform / software is called the Java 
+Virtual Machine.
+
+Once we run the byte code on the JVM Machine , 
+it creates an object and we are able to run the code. 
+
+
+This is how Java Works. 
+
+Variable in Java :- Just consider it as a container.
+This container has the ability to store all kinds of data 
+whether they are chars , strings , numbers , etc. 
+
+And also have the ability to create different kinds of container
+for different purposes. 
+
+Common / Primitive Data Types 
+char --> 2 Bytes 
+byte --> 1 Bytes
+short --> 2 Bytes 
+int --> 4 Bytes 
+float --> 4 Bytes 
+long --> 4 Bytes 
+double --> 8 Bytes 
+boolean --> N/A 
+String --> YOLO
+
+When writing JAVA Code --> Declare Class , then main method. 
+
+Java is a typesafe language
+
+Naming Convention is important 
+Eg :- sname , stockprice. --> variable names 
+Class Names --> Strig , Integer , Student , Worker , Engineer 
+Interface Name --> Runable , Serializable . (Should be adjective).
+
+Class --> Noun --> Students , Person , Computer , Hashmap.
+Method --> Verb 
+Variable --> specific name of the feature that perfectly describes the situation (stockprice , bankdetails).
+Constant --> PI , DENSITY , MAX_PRICE --> Fixed value to be assigned and being used. 
+
+Java --> Follows Camel Casing Rule. 
+
+Following them , makes you code more readable. 
+ 
+Package is a keyword that gives access to the multiple classes
+as these classes are been compressed into a one single folder and 
+can be used anywhere using package.
+
+Examples :- 
+IO classes --> java.io classes. 
+Networking classes --> java.net classes. 
+JDBC classes -->  java.sql classes.
+
+Eg :- www.google.com is only used by google , No one else can use it.
+and uses package called com.package.
+
+You must make sure that whatever package you create should always 
+be unique to each other.
+
+In order to make your package unique 
+Package name should be mirror of Domain Name.
+
+We can have packages inside the package  
+com.Telusko.Test.*
+
+It is always better to put different classes into different
+packages.
