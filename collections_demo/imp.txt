@@ -1,0 +1,43 @@
+What is Collection in Java ?
+
+Collection  --> Interface 
+Collections --> A Class
+
+If you want a list of elements 
+One way of doing it is using Array.
+
+int a[] = new int[A];
+Collection values = new ArrayList();
+
+ArrayList is a class that implements a list of elements
+directly.
+Collection (Interface) --> List (Interface) --> ArrayList (Class).
+
+values.add(5);
+values.add(6);
+
+It is helpful class to deal with problems including the list of elements. 
+It is similar to the vector library in C++.
+
+
+vector<int>arr = C++ Way 
+Collection array = new ArrayList() --> Java Way.
+
+Default type of ArrayList() will be ObjectType.
+
+ObjectType --> you can add any kind or type of elements including nums , strings , chars
+, etc.
+
+If you want to store elements of specific type , then you can specific the type 
+Collection<Integer> values = new ArrayList<Integer>();
+
+Collection doesn't work with indices as the normal array does.
+To work with indices we use list , which is child of Collection.
+
+List<Integer> values = new ArrayList<>();
+
+To store unique values of list , we use Set 
+Hashset class has the interface Set.
+
+Set<Integer> values = new HashSet<>();
+Map<Integer,String> m = new HashMap<>();

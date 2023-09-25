@@ -1,0 +1,55 @@
+Multithreading 
+
+
+In simple words , multithreading relates to 
+performing multiple tasks at the same time.
+
+Eg:- Understanding the concept of multithreading using real life example.
+MS Word :- Main Process
+Typing :- Sub Process
+Spell Check :- Sub Process 
+
+These sub processes are called as threads.
+
+Thread --> Unit of a process. 
+If you break the process into multiple units , each unit is said to be Thread.
+
+Why do we need threads ?? 
+1] Using Complete Power of CPU.
+2] Async task in Android.
+
+When you use Java Application , you only use one thread.
+In every Java code or application , we have at least one java thread called main.
+
+How to acheive Threads ?? 
+Let's create an object of the Threads.
+
+Thread d1 = new Thread();
+Responsibility of d1 thread is to convert each element of array twice the original val.
+
+So , to assign the work to d1 
+create a class of the thread. 
+
+Eg :- 
+
+class MyThread extends Thread. 
+{
+    int[] values = {6,5,1,7,8}
+    public void run() {
+        for(int i = 0 ; i < 5 ; i++) {
+            values[i] = values[i] * 2;
+        }
+    }
+}
+
+It is necessary for a class to be the  Thread , so use 
+the extend keyword to achieve the true power of thread.
+
+Then it will automatically call the run method using the 
+start method.
+
+Let's say we have a class A 
+
+and my thread wants to extend with the class A , what is the way of doing it ?? 
+
+
